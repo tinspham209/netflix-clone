@@ -1,0 +1,42 @@
+.body {
+	background-color: #95c2de;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.mainbox {
+	background-color: #95c2de;
+	margin: auto;
+	height: 600px;
+	width: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.err p {
+	color: #ffffff;
+	font-family: "consolas", sans-serif;
+
+	font-size: 130px;
+	margin: 0;
+}
+
+.msg {
+	text-align: center;
+	font-family: "consolas", sans-serif;
+	font-size: 20px;
+}
+
+.a {
+	text-decoration: none;
+	color: white;
+}
+
+.a:hover {
+	text-decoration: underline;
+}
