@@ -43,8 +43,8 @@
 - Footer component 🎉
 - Accordion component 🎉
 - useContext for Compound Components 🎉
-- Accordion component body
-- Accordion component review
+- Accordion component body 🎉
+- Accordion component review 🎉
 - Opt-form component creation
 - Opt-form component review
 - Constants - routes
