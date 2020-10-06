@@ -46,16 +46,13 @@
 - Accordion component 🎉
 - useContext for Compound Components 🎉
 - Accordion component body 🎉
-- Accordion component review 🎉
-- Opt-form component creation
-- Opt-form component review
-- Constants - routes
-- Pages: Home, Browse, SignIn, SignUp
-- Creating React Router Routes
-- Header component
-- Template review
-- Firebase connection
-- React Context for Firebase
+- Opt-form component creation 🎉
+- Constants - routes 🎉
+- Pages: Home, Browse, SignIn, SignUp 🎉
+- Creating React Router Routes 🎉
+- Header component 🎉
+- Firebase connection 🎉
+- React Context for Firebase 🎉
 - SignIn Page
 - Firebase top level authentication
 - Firebase console authentication
