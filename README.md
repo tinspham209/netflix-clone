@@ -1,68 +1,156 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project: Netflix Clone
 
-## Available Scripts
+## Date: 5 - Oct - 2020
 
-In the project directory, you can run:
+### Functions
 
-### `yarn start`
+- This React project has multiple pages: Home, Browse (which uses Firebase authentication), sign in, and sign up. The sign in will connect to Firebase when a user tries to sign in, and when a user signs up, we will use Firebase auth to store the user in the Firebase auth database. I build this app using React and uses Styled Components for all the styling we implement. You will need knowledge of React (useEffect, useState, useContext) and you will need JavaScript knowledge for using higher order functions such as map, filter, reduce, and find. We will use Fuse.js for live search, and we will test all our components using React Testing Library. And of course we will use React router for navigation!
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Screenshot
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- <img src="" alt=""/>
 
-### `yarn test`
+### Tech-Stack
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React( custom hooks, context, portals)
+- Firebase (Firestore/auth)
+- styled-components
+- fuse.js
+- normalize.css
 
-### `yarn build`
+### API Used
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Deploy
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- [Live Site](link)
+- [Live Server](link)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Plan Of Action
 
-### `yarn eject`
+- Initial project x
+- Architecture x
+- Project dependencies x
+- Installing create react app x
+- Project cleanup x
+- Creating files/folders x
+- Creating the Jumbotron component x
+- Styled components GlobalStyles
+- Implementing Normalize.css
+- Installing ESLint, Prettier
+- Item component
+- Item component direction prop
+- Container derivative component
+- Modules, errors
+- Footer component
+- Accordion component
+- useContext for Compound Components
+- VSCode tip for importing
+- Accordion component body
+- Accordion component review
+- Opt-form component creation
+- Opt-form component review
+- Constants - routes
+- Pages: Home, Browse, SignIn, SignUp
+- Creating React Router Routes
+- Header component
+- Template review
+- Firebase connection
+- React Context for Firebase
+- SignIn Page
+- Firebase top level authentication
+- Firebase console authentication
+- Debugging error auth (if user is in the db or not)
+- SignUp Page
+- Registration page, routes debugging
+- Navigation
+- Helpers: routes (React router auth)
+- Protect routes
+- Creating an auth listener (custom hook)
+- Tip around authentication state changing
+- Helpers routes review
+- Browse page (categories films & series) component
+- Custom hook:browse page
+- Utils directory and setup
+- Browse container
+- Profiles container
+- Profiles component
+- Loading profile component
+- Spinner review
+- Header profile
+- Header profile: dropdown, chevron
+- Header search styling
+- Header play button style
+- Card list (categories, slides) - films & series logic
+- Entities logic start
+- Player component and Card component styling
+- Movie recommendations
+- Feature component (showing)
+- Passing props into our Feature (item obj)
+- More styling on the card style
+- Debugging the slides
+- Debugging play button and card
+- Player component
+- Review player video
+- Live search using Fuse.js
+- Review our project!
+- Testing setup
+- Player test
+- Footer test
+- Accordion test
+- Card test
+- Feature test
+- Form test
+- Opt form test
+- Player test
+- Loading test
+- Profile test
+- Jumbotron test
+- Header test
+- Home page test
+- Profiles test
+- Adding test-ids to Profiles
+- Selection filter test
+- SignIn Test
+- SignUp Test
+- We are done! Review and sign off!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### After this project
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I have improve my knowledge about
+I have understand about
+Next Steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Directory Structure
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+.
+├── .gitignore
+├── package.json
+├── README.md
+├── public
+└── src
+    ├── App.js
+    ├── App.css
+    ├── index.css
+    └── index.js
+```
 
-## Learn More
+### Set up
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Use the cmd line to clone repo to your computer
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+git clone [github_repo_url]
+```
 
-### Code Splitting
+Use the cmd line to install dependencies.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```
+npm install
+```
 
-### Analyzing the Bundle Size
+Run in cmd for start the dependencies server
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```
+npm start
+```
