@@ -39,12 +39,10 @@
 - Installing ESLint, Prettier 🎉
 - Item component 🎉
 - Item component direction prop 🎉
-- Container derivative component
-- Modules, errors
-- Footer component
-- Accordion component
-- useContext for Compound Components
-- VSCode tip for importing
+- Container derivative component 🎉
+- Footer component 🎉
+- Accordion component 🎉
+- useContext for Compound Components 🎉
 - Accordion component body
 - Accordion component review
 - Opt-form component creation
