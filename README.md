@@ -27,18 +27,18 @@
 
 ### Plan Of Action
 
-- Initial project x
-- Architecture x
-- Project dependencies x
-- Installing create react app x
-- Project cleanup x
-- Creating files/folders x
-- Creating the Jumbotron component x
-- Styled components GlobalStyles
-- Implementing Normalize.css
-- Installing ESLint, Prettier
-- Item component
-- Item component direction prop
+- Initial project 🎉
+- Architecture 🎉
+- Project dependencies 🎉
+- Installing create react app 🎉
+- Project cleanup 🎉
+- Creating files/folders 🎉
+- Creating the Jumbotron component 🎉
+- Styled components GlobalStyles 🎉
+- Implementing Normalize.css 🎉
+- Installing ESLint, Prettier 🎉
+- Item component 🎉
+- Item component direction prop 🎉
 - Container derivative component
 - Modules, errors
 - Footer component
