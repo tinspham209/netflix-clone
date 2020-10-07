@@ -53,13 +53,12 @@
 - Header component 🎉
 - Firebase connection 🎉
 - React Context for Firebase 🎉
-- SignIn Page
-- Firebase top level authentication
-- Firebase console authentication
-- Debugging error auth (if user is in the db or not)
-- SignUp Page
-- Registration page, routes debugging
-- Navigation
+- SignIn Page 🎉
+- Firebase top level authentication 🎉
+- Firebase console authentication 🎉
+- Debugging error auth (if user is in the db or not) 🎉
+- SignUp Page 🎉
+- Registration page, routes debugging 🎉
 - Helpers: routes (React router auth)
 - Protect routes
 - Creating an auth listener (custom hook)
