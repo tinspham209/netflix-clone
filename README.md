@@ -13,7 +13,7 @@
 
 ### Screenshot
 
-- <img src="" alt="is-develop"/>
+- <img src="" alt="is-developing"/>
 
 ### Tech-Stack
 
@@ -59,8 +59,8 @@
 - Debugging error auth (if user is in the db or not) 🎉
 - SignUp Page 🎉
 - Registration page, routes debugging 🎉
-- Helpers: routes (React router auth)
-- Protect routes
+- Helpers: routes (React router auth) 🎉
+- Protect routes 🎉
 - Creating an auth listener (custom hook)
 - Tip around authentication state changing
 - Helpers routes review
