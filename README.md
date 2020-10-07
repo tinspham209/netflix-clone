@@ -61,12 +61,11 @@
 - Registration page, routes debugging 🎉
 - Helpers: routes (React router auth) 🎉
 - Protect routes 🎉
-- Creating an auth listener (custom hook)
-- Tip around authentication state changing
-- Helpers routes review
-- Browse page (categories films & series) component
-- Custom hook:browse page
-- Utils directory and setup
+- Creating an auth listener (custom hook) 🎉
+- Helpers routes review 🎉
+- Browse page (categories films & series) component 🎉
+- Custom hook:browse page 🎉
+- Utils directory and setup 🎉
 - Browse container
 - Profiles container
 - Profiles component
