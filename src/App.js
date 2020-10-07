@@ -7,13 +7,16 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import * as ROUTES from "./constants/routes";
 import { IsUserRedirect, ProtectedRoute } from "./helpers/routes";
 
+import { useAuthListener } from "./hooks";
+
 const Home = React.lazy(() => import("./pages/home"));
 const Browse = React.lazy(() => import("./pages/browse"));
 const Signin = React.lazy(() => import("./pages/signin"));
 const Signup = React.lazy(() => import("./pages/signup"));
 
 function App() {
-	const user = null;
+	const user = useAuthListener();
+	console.log("user", user);
 
 	return (
 		<Suspense fallback={<div>Loading...</div>}>
