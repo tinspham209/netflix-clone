@@ -75,14 +75,14 @@
 - Header profile: dropdown, chevron 🎉
 - Header search styling 🎉
 - Header play button style 🎉
-- Card list (categories, slides) - films & series logic
-- Entities logic start
-- Player component and Card component styling
-- Movie recommendations
-- Feature component (showing)
-- Passing props into our Feature (item obj)
-- More styling on the card style
-- Debugging the slides
+- Card list (categories, slides) - films & series logic 🎉
+- Entities logic start 🎉
+- Player component and Card component styling 🎉
+- Movie recommendations 🎉
+- Feature component (showing) 🎉
+- Passing props into our Feature (item obj) 🎉
+- More styling on the card style 🎉
+- Debugging the slides 🎉
 - Debugging play button and card
 - Player component
 - Review player video
