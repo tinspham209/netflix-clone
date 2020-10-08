@@ -1,53 +1,40 @@
 import React, { Suspense } from "react";
-
-import { GlobalStyles } from "./global-styles";
-import NotFound from "./components/NotFound";
-
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Home, Browse, SignIn, SignUp } from "./pages";
 import * as ROUTES from "./constants/routes";
 import { IsUserRedirect, ProtectedRoute } from "./helpers/routes";
-
 import { useAuthListener } from "./hooks";
-
-const Home = React.lazy(() => import("./pages/home"));
-const Browse = React.lazy(() => import("./pages/browse"));
-const Signin = React.lazy(() => import("./pages/signin"));
-const Signup = React.lazy(() => import("./pages/signup"));
-
+import { GlobalStyles } from "./global-styles";
+import { NotFound } from "./components";
 function App() {
-	const user = useAuthListener();
-	console.log("user", user);
+	const { user } = useAuthListener();
 
 	return (
 		<Suspense fallback={<div>Loading...</div>}>
-			<GlobalStyles />
-
 			<Router>
+				<GlobalStyles />
 				<Switch>
 					<IsUserRedirect
 						user={user}
 						loggedInPath={ROUTES.BROWSE}
 						path={ROUTES.SIGN_IN}
-						exact
 					>
-						<Signin />
+						<SignIn />
 					</IsUserRedirect>
 					<IsUserRedirect
 						user={user}
 						loggedInPath={ROUTES.BROWSE}
 						path={ROUTES.SIGN_UP}
-						exact
 					>
-						<Signup />
+						<SignUp />
 					</IsUserRedirect>
-					<ProtectedRoute user={user} path={ROUTES.BROWSE} exact>
+					<ProtectedRoute user={user} path={ROUTES.BROWSE}>
 						<Browse />
 					</ProtectedRoute>
 					<IsUserRedirect
 						user={user}
 						loggedInPath={ROUTES.BROWSE}
 						path={ROUTES.HOME}
-						exact
 					>
 						<Home />
 					</IsUserRedirect>
