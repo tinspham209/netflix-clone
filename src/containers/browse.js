@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import { Card, Header, Loading } from "../components";
+import { Card, Header, Loading, Player } from "../components";
 
 import * as ROUTES from "../constants/routes";
 import { FirebaseContext } from "../context/firebase";
@@ -101,11 +101,11 @@ const BrowseContainer = ({ slides }) => {
 							))}
 						</Card.Entities>
 						<Card.Feature category={category}>
-							<h2>Hello Button</h2>
-							{/* <Player>
+							{/* <h2>Hello Button</h2> */}
+							<Player>
 								<Player.Button />
 								<Player.Video src="/videos/bunny.mp4" />
-							</Player> */}
+							</Player>
 						</Card.Feature>
 					</Card>
 				))}
