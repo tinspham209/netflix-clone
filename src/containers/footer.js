@@ -37,6 +37,15 @@ const FooterContainer = () => {
 			</Footer.Row>
 			<Footer.Break />
 			<Footer.Text>Netflix Vietnam</Footer.Text>
+			<Footer.Link
+				href="https://github.com/tinspham209/netflix-clone"
+				target="_blank"
+			>
+				Project Github Repository
+			</Footer.Link>
+			<Footer.Link href="https://tinspham.info" target="_blank">
+				Developed by Tins
+			</Footer.Link>
 		</Footer>
 	);
 };
