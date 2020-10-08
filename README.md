@@ -66,15 +66,15 @@
 - Browse page (categories films & series) component 🎉
 - Custom hook:browse page 🎉
 - Utils directory and setup 🎉
-- Browse container
-- Profiles container
-- Profiles component
-- Loading profile component
-- Spinner review
-- Header profile
-- Header profile: dropdown, chevron
-- Header search styling
-- Header play button style
+- Browse container 🎉
+- Profiles container 🎉
+- Profiles component 🎉
+- Loading profile component 🎉
+- Spinner review 🎉
+- Header profile 🎉
+- Header profile: dropdown, chevron 🎉
+- Header search styling 🎉
+- Header play button style 🎉
 - Card list (categories, slides) - films & series logic
 - Entities logic start
 - Player component and Card component styling
