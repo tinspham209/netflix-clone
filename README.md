@@ -15,6 +15,7 @@
 
 <img src="https://i.imgur.com/wedzMRI.png" alt="netflix-clone"/>
 <img src="https://media.giphy.com/media/V6Wqs2kjsXcgE7KhGA/giphy.gif" />
+<iframe src="https://giphy.com/embed/V6Wqs2kjsXcgE7KhGA" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/V6Wqs2kjsXcgE7KhGA">via GIPHY</a></p>
 
 ### Deploy
 
