@@ -229,7 +229,7 @@ import { InfoSec, InfoRow } from "./styles/card.js";
 - go to Firebase ~> click on `Authentication` and setup.
 - Enable Email/Password (Sign-in method)
 
-### How to update new data films
+### How to update new data of films
 
 - go to Firebase ~> click on `Cloud Firestore` and setup database in test mode (Everyone can edit database).
 - After that, open file `src/seed.js`
