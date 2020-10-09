@@ -13,7 +13,7 @@
 
 ### Screenshot
 
-- <img src="https://i.imgur.com/wedzMRI.png" alt="netflix-clone"/>
+<img src="https://i.imgur.com/wedzMRI.png" alt="netflix-clone"/>
 
 ### Deploy
 
@@ -129,7 +129,7 @@ Next Steps:
 - Clone this project
 
 ```
-git clone https://github.com/tinspham209/noor-coffee
+git clone https://github.com/tinspham209/netflix-clone
 ```
 
 - Install dependencies
@@ -177,7 +177,7 @@ npm start
 
 ### How to name a folder and a file
 
-- Folder name: - Ex: `jumbotron`
+- Folder name: - Ex: `card`
 - Components structure
   <img src="https://i.imgur.com/lcXRnAB.png" />
 
@@ -208,6 +208,11 @@ import { InfoSec, InfoRow } from "./components";
 import { InfoSec, InfoRow } from "./styles/card.js";
 ```
 
+### How to style for Global?
+
+- Open file `src/global-styles.js`
+- Edit on function `GlobalStyles`
+
 ### How to connect to firebase
 
 - go to https://console.firebase.google.com/
@@ -229,18 +234,19 @@ import { InfoSec, InfoRow } from "./styles/card.js";
 - uncomment line 4 & line 20
 
 ```js
-4;
+// 4
 import { seedDatabase } from "../seed";
-20;
+
+// 20
 seedDatabase(firebase);
 ```
 
-- Reload the page, data will import to Firestore
+- Reload the page, new data will import to Firestore
 - After that, comment again line 4 & line 20.
 
 ```js
-4; // import { seedDatabase } from "../seed";
-20; // seedDatabase(firebase);
+//4  import { seedDatabase } from "../seed";
+//20 seedDatabase(firebase);
 ```
 
 ### How to update new image of films
@@ -269,14 +275,17 @@ firebase login
 ```
 
 - Initial firebase project:
-  1. Are you ready to proceed? `Y`
-  2. Choose `Hosting`
-  3. What do you want to use as your public directory? `Build`
-  4. Configure as a single-page app `N`
 
 ```
 firebase init
 ```
+
+1. Are you ready to proceed? `Y`
+2. Choose `Hosting`
+3. What do you want to use as your public directory? `Build`
+4. Configure as a single-page app `N`
+
+- Deploy
 
 ```
 npm run deploy
