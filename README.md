@@ -14,7 +14,7 @@
 ### Screenshot
 
 <img src="https://i.imgur.com/wedzMRI.png" alt="netflix-clone"/>
-<img src="https://media3.giphy.com/media/V6Wqs2kjsXcgE7KhGA/giphy.gif" />
+<img src="https://media.giphy.com/media/V6Wqs2kjsXcgE7KhGA/giphy.gif" />
 
 ### Deploy
 
