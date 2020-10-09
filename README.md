@@ -15,14 +15,6 @@
 
 - <img src="https://i.imgur.com/wedzMRI.png" alt="netflix-clone"/>
 
-### Tech-Stack
-
-- React( custom hooks, context, portals)
-- Firebase (Firestore/auth)
-- styled-components
-- fuse.js
-- normalize.css
-
 ### Deploy
 
 https://netflix.tinspham.info/
@@ -88,6 +80,11 @@ https://netflix.tinspham.info/
 - Review player video 🎉
 - Live search using Fuse.js 🎉
 - Review our project! 🎉
+
+### After this project
+
+Next Steps:
+
 - Testing setup
 - Player test
 - Footer test
@@ -109,43 +106,178 @@ https://netflix.tinspham.info/
 - SignUp Test
 - We are done! Review and sign off!
 
-### After this project
+### Application architecture
 
-I have improve my knowledge about
-I have understand about
-Next Steps:
+<img src="https://i.imgur.com/74aUrpq.png" />
 
 ### Directory Structure
 
+<img src="https://i.imgur.com/fRZnRWd.png" />
+
+## Installation Guide
+
+### Tech-Stack
+
+- React( custom hooks, context, portals)
+- Firebase (Firestore/auth)
+- styled-components
+- fuse.js
+- normalize.css
+
+### Production
+
+- Clone this project
+
 ```
-.
-├── .gitignore
-├── package.json
-├── README.md
-├── public
-└── src
-    ├── App.js
-    ├── App.css
-    ├── index.css
-    └── index.js
+git clone https://github.com/tinspham209/noor-coffee
 ```
 
-### Set up
-
-Use the cmd line to clone repo to your computer
-
-```
-git clone [github_repo_url]
-```
-
-Use the cmd line to install dependencies.
+- Install dependencies
 
 ```
 npm install
 ```
 
-Run in cmd for start the dependencies server
+- Start the server
 
 ```
 npm start
+```
+
+### Development
+
+- Clone this project
+- Install dependencies
+
+```
+npm install
+```
+
+- Start packager
+
+```
+npm start
+```
+
+### Components function:
+
+- **accordion**:
+- **card**:
+- **feature**:
+- **footer**:
+- **form**:
+- **header**:
+- **jumbotron**:
+- **loading**:
+- **NotFound**:
+- **opt-form**:
+- **player**:
+- **profiles**:
+- **Spinner**:
+
+### How to name a folder and a file
+
+- Folder name: - Ex: `jumbotron`
+- Components structure
+  <img src="https://i.imgur.com/lcXRnAB.png" />
+
+### How to import and export module?
+
+- Import:
+
+```js
+//import every thing
+import * as React from "react";
+import * as ReactDOM from "react-dom";
+
+//for default export
+import InfoSection from "./InfoSection";
+
+//for named export
+import { InfoSec, InfoRow } from "./components";
+```
+
+### How to style for each component?
+
+- Create a styled-component file. Ex: `src/components/card/styles/card.js`
+- Import to `src/components/card/index.js` file
+
+```js
+// InfoSection.jsx
+
+import { InfoSec, InfoRow } from "./styles/card.js";
+```
+
+### How to connect to firebase
+
+- go to https://console.firebase.google.com/
+- create new project
+- Get the config of firebase project
+- After that, copy to `src/lib/firebase.prod.js`
+
+### How to setup Firebase Authentication
+
+- go to Firebase ~> click on `Authentication` and setup.
+- Enable Email/Password (Sign-in method)
+
+### How to update new data films
+
+- go to Firebase ~> click on `Cloud Firestore` and setup database in test mode (Everyone can edit database).
+- After that, open file `src/seed.js`
+- edit information that you want
+- After that, go to `src/lib`
+- uncomment line 4 & line 20
+
+```js
+4;
+import { seedDatabase } from "../seed";
+20;
+seedDatabase(firebase);
+```
+
+- Reload the page, data will import to Firestore
+- After that, comment again line 4 & line 20.
+
+```js
+4; // import { seedDatabase } from "../seed";
+20; // seedDatabase(firebase);
+```
+
+### How to update new image of films
+
+- go to `public/images`
+- select type of films: `films` or `series`
+- import image to it
+- Each films must have 2 images: `large.jpg` & `small.jpg`
+
+### How to deploy to firebase
+
+- go to Firebase ~> click on `Project settings`
+- copy Project ID. Ex: `netflix-clone-8b12f`
+- open file `deploy-firebase`
+- update project ID in line 11
+
+```js
+firebase use project_ID
+```
+
+- open cmd
+- Login firebase
+
+```
+firebase login
+```
+
+- Initial firebase project:
+  1. Are you ready to proceed? `Y`
+  2. Choose `Hosting`
+  3. What do you want to use as your public directory? `Build`
+  4. Configure as a single-page app `N`
+
+```
+firebase init
+```
+
+```
+npm run deploy
 ```
