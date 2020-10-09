@@ -5,12 +5,12 @@ import * as ROUTES from "./constants/routes";
 import { IsUserRedirect, ProtectedRoute } from "./helpers/routes";
 import { useAuthListener } from "./hooks";
 import { GlobalStyles } from "./global-styles";
-import { NotFound } from "./components";
+import { NotFound, Spinner } from "./components";
 function App() {
 	const { user } = useAuthListener();
 
 	return (
-		<Suspense fallback={<div>Loading...</div>}>
+		<Suspense fallback={<Spinner />}>
 			<Router>
 				<GlobalStyles />
 				<Switch>
