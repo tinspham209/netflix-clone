@@ -14,6 +14,7 @@
 ### Screenshot
 
 <img src="https://i.imgur.com/wedzMRI.png" alt="netflix-clone"/>
+<img src="https://media3.giphy.com/media/V6Wqs2kjsXcgE7KhGA/giphy.gif" />
 
 ### Deploy
 
@@ -80,6 +81,9 @@ https://netflix.tinspham.info/
 - Review player video 🎉
 - Live search using Fuse.js 🎉
 - Review our project! 🎉
+- Deploy to firebase 🎉
+- Add custom domain 🎉
+- Add SLL to domain 🎉
 
 ### After this project
 
@@ -282,8 +286,8 @@ firebase init
 
 1. Are you ready to proceed? `Y`
 2. Choose `Hosting`
-3. What do you want to use as your public directory? `Build`
-4. Configure as a single-page app `N`
+3. What do you want to use as your public directory? `build`
+4. Configure as a single-page app `Y`
 
 - Deploy
 
