@@ -1,6 +1,6 @@
 # Project: Netflix Clone
 
-## Date: 5 - Oct - 2020
+## Date: 5 ~> 9 - Oct - 2020
 
 ### Functions
 
@@ -13,7 +13,7 @@
 
 ### Screenshot
 
-- <img src="" alt="is-developing"/>
+- <img src="https://i.imgur.com/wedzMRI.png" alt="netflix-clone"/>
 
 ### Tech-Stack
 
@@ -25,7 +25,7 @@
 
 ### Deploy
 
-- [Live Site](link)
+https://netflix.tinspham.info/
 
 ### Plan Of Action
 
@@ -83,11 +83,11 @@
 - Passing props into our Feature (item obj) 🎉
 - More styling on the card style 🎉
 - Debugging the slides 🎉
-- Debugging play button and card
-- Player component
-- Review player video
-- Live search using Fuse.js
-- Review our project!
+- Debugging play button and card 🎉
+- Player component 🎉
+- Review player video 🎉
+- Live search using Fuse.js 🎉
+- Review our project! 🎉
 - Testing setup
 - Player test
 - Footer test
